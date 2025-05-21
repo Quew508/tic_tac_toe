@@ -1,4 +1,24 @@
-h1 {
-  color: red;
-  font-size: 12em;
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+.cell {
+  width: 100px;
+  height: 100px;
+  background: #eee;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#restart {
+  margin-top: 15px;
 }
